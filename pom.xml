@@ -81,17 +81,16 @@
         </pluginRepository>
     </pluginRepositories>
     <distributionManagement>
-	     <repository>
-	        <id>central</id>
-	        <name>DESKTOP-SDVBDQB-releases</name>
-	        <url>http://localhost:8081/artifactory/libs-release</url>
-    	</repository>
-	    <snapshotRepository>
-	        <id>snapshots</id>
-	        <name>DESKTOP-SDVBDQB-snapshots</name>
-	        <url>http://localhost:8081/artifactory/libs-snapshot</url>
-	    </snapshotRepository>
-	    
+    <repository>
+        <id>central</id>
+        <name>DESKTOP-SDVBDQB-releases</name>
+        <url>http://localhost:8081/artifactory/mule-repo</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>DESKTOP-SDVBDQB-snapshots</name>
+        <url>http://localhost:8081/artifactory/mule-repo</url>
+    </snapshotRepository>
 </distributionManagement>
 
 </project>
